@@ -28,8 +28,8 @@ class MainApp extends StatelessWidget {
               //crossaxis alinea horizontalmente
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                botton(Icons.book, 'Proyectos', () {}),
-                botton(Icons.draw, 'Borradores', () {}),
+                botton(Icons.bookmark_add_rounded, 'Proyectos', () {}),
+                botton(Icons.draw_outlined, 'Borradores', () {}),
                 botton(Icons.share, 'Compartido conmigo',
                     () {}),
                 const Spacer(),
